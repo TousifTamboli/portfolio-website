@@ -31,7 +31,7 @@ export default function About() {
                   x: [0, 3, -3, 0],
                   transition: { duration: 0.15, repeat: 0 }
                 }}
-                src="https://res.cloudinary.com/dtlgg7ydm/image/upload/v1776028768/Gemini_Generated_Image_svsmjosvsmjosvsm_1_f6p1x2.png" 
+                src="https://res.cloudinary.com/dtlgg7ydm/image/upload/f_auto,q_auto,w_800/v1776028768/Gemini_Generated_Image_svsmjosvsmjosvsm_1_f6p1x2.png" 
                 alt="Portrait" 
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
