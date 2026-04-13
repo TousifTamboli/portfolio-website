@@ -2,8 +2,6 @@
 
 A premium, high-performance portfolio engineered for the modern web. Built with a focus on system-level aesthetics, real-time data integration, and high-fidelity animations.
 
-![Portfolio Banner](https://res.cloudinary.com/dtlgg7ydm/image/upload/v1776028885/Gemini_Generated_Image_2bsody2bsody2bso_1_vg6nyq.png)
-
 ## 🛠️ THE_TECH_STACK
 
 - **Core**: React 18 + Vite (Ultra-fast HMR)
