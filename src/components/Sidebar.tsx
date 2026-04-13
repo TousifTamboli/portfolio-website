@@ -15,7 +15,7 @@ const socialLinks = [
   },
   {
     name: "GitHub",
-    url: "https://github.com/Tousif3",
+    url: "https://github.com/TousifTamboli/",
     icon: <Github size={20} />,
     desc: "SOURCE_REPOSITORY"
   },
