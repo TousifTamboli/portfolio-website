@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@400;500;700&family=Fira+Code:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Fira Code", ui-monospace, SFMono-Regular, monospace;
+  --font-display: "Space Mono", monospace;
+  
+  --color-accent: #00FF9C;
+  --color-bg: #0A0F0A;
+  --color-surface: #141414;
+  --color-border: #2A2A2A;
+  --color-muted: #A0A0A0;
+}
+
+:root {
+  --accent: #00FF9C;
+  --bg: #0A0F0A;
+  --surface: #141414;
+  --border: #2A2A2A;
+  --muted: #A0A0A0;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-white font-sans antialiased selection:bg-accent selection:text-bg;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+/* Custom Utilities */
+.text-glow {
+  text-shadow: 0 0 10px rgba(0, 255, 156, 0.3);
+}
+
+.border-glow {
+  box-shadow: 0 0 15px rgba(0, 255, 156, 0.15);
+}
+
+.noise-overlay {
+  filter: url(#noise);
+  opacity: 0.04;
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+}
+
+.vignette {
+  background: radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.55) 100%);
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 40;
+}
+
+.mix-blend-luminosity {
+  mix-blend-mode: luminosity;
+}
+
+/* Hide scrollbar but keep functionality */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-bg;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-border hover:bg-accent transition-colors;
+}
