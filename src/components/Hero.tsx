@@ -34,7 +34,7 @@ export default function Hero() {
           >
             <div className="absolute inset-0 bg-accent/10 mix-blend-luminosity z-10" />
             <img 
-              src="https://res.cloudinary.com/dtlgg7ydm/image/upload/f_auto,q_auto,w_1200/v1776028885/Gemini_Generated_Image_2bsody2bsody2bso_1_vg6nyq.png" 
+              src="https://res.cloudinary.com/dtlgg7ydm/image/upload/f_auto,q_100/v1776028885/Gemini_Generated_Image_2bsody2bsody2bso_1_vg6nyq.png" 
               alt="Tousif" 
               className="w-full h-full object-cover grayscale opacity-60"
               referrerPolicy="no-referrer"
