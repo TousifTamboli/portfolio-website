@@ -71,7 +71,7 @@ export default function Hero() {
             className="md:col-span-4"
           >
             <p className="text-xs font-mono text-muted mb-4 uppercase tracking-widest">
-              &gt; FULLSTACK_ARCHITECT <span className="animate-pulse">|</span>
+              &gt; AGENTIC_AI & FULLSTACK_ARCHITECT <span className="animate-pulse">|</span>
             </p>
             <div className="flex gap-4">
               <motion.button 

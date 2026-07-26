@@ -22,6 +22,23 @@ const projects = [
   },
   {
     id: 2,
+    title: "Multi-Server MCP Agent — Stateful LangGraph Chatbot",
+    category: "AI",
+    desc: "Autonomous AI chatbot integrating Multi-Server MCP tools (Chrome DevTools, Filesystem), LangGraph state workflows, and Next.js glassmorphic interface.",
+    longDesc: [
+      "Engineered stateful AI agent workflows using LangGraph StateGraph with thread-isolated in-memory checkpointers.",
+      "Integrated multi-server Model Context Protocol (MCP) adapters over stdio for Chrome DevTools and Filesystem tools.",
+      "Built FastAPI backend exposing real-time Server-Sent Events (SSE) streaming endpoints for agent responses.",
+      "Designed modern Next.js dark glassmorphic UI featuring live token streaming and expandable tool execution cards.",
+      "Implemented modular Python architecture for seamless integration of custom @tool functions and stdio MCP servers."
+    ],
+    image: "https://picsum.photos/seed/p5/800/600",
+    tags: ["LANGGRAPH", "MCP", "NEXT.JS", "FASTAPI", "PYTHON", "SSE"],
+    sourceUrl: "https://github.com/TousifTamboli/agents-wth-mcp-tools",
+    liveUrl: "https://github.com/TousifTamboli/agents-wth-mcp-tools"
+  },
+  {
+    id: 3,
     title: "UR Automation Suite",
     category: "Web",
     desc: "Built a centralized dashboard with Redis caching and RBAC that secured data & reduced load times by 40%.",
@@ -37,7 +54,7 @@ const projects = [
     liveUrl: "https://github.com/TousifTamboli/tp-cell-system"
   },
   {
-    id: 3,
+    id: 4,
     title: "NoCode Database Builder",
     category: "Tools",
     desc: "Just Drag and Drop your tables, it's that simple, and get your database in seconds.",
@@ -53,7 +70,7 @@ const projects = [
     liveUrl: "https://github.com/TousifTamboli/nocode_db_generator"
   },
   {
-    id: 4,
+    id: 5,
     title: "QUANTUM_ERP_SYSTEM",
     category: "Web",
     desc: "Cloud-native ERP system built for large manufacturing firms, focusing on inventory real-time sync.",

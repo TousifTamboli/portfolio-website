@@ -7,7 +7,7 @@ const stats = [
 ];
 
 const skills = [
-  "TYPESCRIPT", "REACT_NATIVE", "NODE_JS", "RUST_LANG", "DOCKER_VIZ", "POSTGRES_SQL", "AWS_CLOUD", "GRAPH_QL"
+  "AGENTIC_AI", "LANGGRAPH", "MCP_TOOLS", "PYTHON", "TYPESCRIPT", "REACT_NATIVE", "NODE_JS", "RUST_LANG", "DOCKER_VIZ", "POSTGRES_SQL", "AWS_CLOUD"
 ];
 
 export default function About() {
@@ -52,10 +52,10 @@ export default function About() {
             </div>
 
             <p className="text-muted text-lg leading-relaxed max-w-xl">
-              I build fast, scalable web applications and crush algorithms 
-              for fun. Full-stack by day, competitive programmer by night — 
+              I build fast, scalable web applications and autonomous <span className="text-accent">Agentic AI systems</span>, 
+              and crush algorithms for fun. Agentic AI & Full-Stack architect by day, competitive programmer by night — 
               I turn complex problems into clean, elegant solutions that 
-              <span className="text-accent"> actually ship.</span> with zero bugs and infinite profit.
+              <span className="text-accent"> actually ship.</span>
             </p>
 
             {/* Stats */}
